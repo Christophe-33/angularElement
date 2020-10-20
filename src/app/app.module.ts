@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { environment } from 'src/environments/environment';
 import { SocialButtonComponent } from './social-button/social-button.component';
 import { createCustomElement } from '@angular/elements';
+import { PonyElementComponent } from './pony-element/pony-element/pony-element.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import { createCustomElement } from '@angular/elements';
   providers: [],
   entryComponents:[
     AppComponent,
-    SocialButtonComponent
+    SocialButtonComponent,
   ]
 })
 export class AppModule {
